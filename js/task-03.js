@@ -20,7 +20,6 @@ const markup = images.map(({url, alt}) =>
   .join(""); 
 
 const gallery = document.querySelector('.gallery');
-// gallery.insertAdjacentHTML('beforeend', markup);
 gallery.innerHTML = markup;
 
 gallery.style.listStyle = 'none';
